@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:"#FAF9F6"
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;500&display=swap');
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #f0f0f0; 
+  border-left: 1px solid #ddd;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(267deg, #08426f 50%, #1976d2 100%);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(267deg, #0a5a8a 50%, #1e88e5 100%);
+}
